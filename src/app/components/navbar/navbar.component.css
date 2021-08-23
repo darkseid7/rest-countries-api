@@ -1,0 +1,41 @@
+.header-nav {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1.3rem 1rem;
+    background: rgb(255, 255, 255);
+    box-shadow: grey 0px 2px 5px -2px;
+}
+
+.header-nav h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-switch {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: rgb(17, 21, 23);
+    transition: all 0.3s ease 0s;
+}
+
+.btn-switch:hover {
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.btn-switch svg {
+    margin-right: 6px;
+}

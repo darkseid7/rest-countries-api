@@ -1,0 +1,85 @@
+.back-btn {
+  padding: 0.5rem 1.5rem 0.5rem 2.5rem;
+  text-decoration: none;
+  color: rgb(17, 21, 23);
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  position: relative;
+}
+
+.back-btn svg {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.country h3 {
+  padding-top: 2rem;
+}
+
+
+.country {
+  padding: 1rem;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-section {
+  padding: 1rem 0;
+}
+
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-list-item {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: rgb(17, 21, 23);
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 6px;
+}
+
+@media only screen and (min-width: 768px){
+  .flag-img{
+    width: 450px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 376px) {
+  .country {
+    padding: 5rem;
+ }
+
+ .country h3 {
+  font-size: 1.5rem;
+}
+
+.country-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.country-detail {
+  width: 50%;
+}
+
+.country-info {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+}
+
+
+

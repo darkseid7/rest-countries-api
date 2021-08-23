@@ -1,0 +1,4 @@
+
+<section class="card-container">
+    <app-country-card *ngFor="let country of countriesSearch$ | async" [country]='country'></app-country-card>
+</section>

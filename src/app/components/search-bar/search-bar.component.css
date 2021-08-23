@@ -1,0 +1,217 @@
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.src-input {
+    position: relative;
+}
+
+.input-search {
+    width: 100%;
+    padding: 1rem 1rem 1rem 4rem;
+    border-radius: 5px;
+    border: none;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(133, 133, 133);
+    background: rgb(255, 255, 255);
+    font-weight: 300;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+.filter-container {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.filter-text {
+    z-index: 9999;
+    border: 0px;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+.src-input svg {
+    position: absolute;
+    right: 85%;
+    top: 27%;
+    fill: rgb(133, 133, 133);
+}
+
+.filter-options {
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 38px;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 0.4rem;
+    border: none;
+    font-family: "Nunito Sans", sans-serif;
+    background: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 2rem;
+    outline: 0px !important;
+}
+
+.filter-text-contaier {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    padding: 2px 8px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.css-1wy0on6 {
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .src-input {
+    position: relative;
+  }
+  
+  .input-search {
+    width: 100%;
+    padding: 1rem 1rem 1rem 4rem;
+    border-radius: 5px;
+    border: none;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(133, 133, 133);
+    background: rgb(255, 255, 255);
+    font-weight: 300;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
+  
+  .filter-container {
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .filter-text {
+    z-index: 9999;
+    border: 0px;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    white-space: nowrap;
+  }
+  
+  .src-input svg {
+    position: absolute;
+    right: 85%;
+    top: 27%;
+    fill: rgb(133, 133, 133);
+  }
+  
+  .filter-options {
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 38px;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 0.4rem;
+    border: none;
+    font-family: "Nunito Sans", sans-serif;
+    background: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 2rem;
+    outline: 0px !important;
+  }
+  
+  .filter-text-contaier {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    padding: 2px 8px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+    
+  @media only screen and (min-width: 768px){
+    .search-bar-container {
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+  
+    .input-search {
+        width: 500px;
+    }
+  
+    .src-input svg {
+        right: 90%;
+    }
+  
+    .filter-options {
+        margin-top: 0px;
+    }
+  }
+  
+@media only screen and (min-width: 768px){
+    .search-bar-container {
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .input-search {
+        width: 500px;
+    }
+
+    .src-input svg {
+        right: 90%;
+    }
+
+    .filter-options {
+        margin-top: 0px;
+    }
+}
+
+
+

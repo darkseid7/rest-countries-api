@@ -1,0 +1,19 @@
+  @media only screen and (min-width: 768px) {
+  
+    .card-container {
+      max-width: 1448px;
+      padding: 3rem 0px 0px;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-areas: none;
+      grid-gap: 60px;
+      gap: 60px;
+      margin: 0 auto;
+    }
+
+    .hydYaP {
+      padding: 3rem 4rem;
+  }
+  
+  }
